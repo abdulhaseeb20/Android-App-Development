@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Firebase Assignment</string>
+    <string name="add_record">Add Record</string>
+    <string name="delete_record">Delete Record</string>
+    <string name="update_record">Update Record</string>
+    <string name="reports">Reports</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_department">Enter Department</string>
+    <string name="enter_reg_no">Enter Reg No</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="txtreportname">Name</string>
+    <string name="dept">Dept</string>
+    <string name="reg_no">Reg No.</string>
+    <string name="cgpa">CGPA</string>
+    <string name="email">Email</string>
+    <string name="txt3pluscgpa">3.0+ CGPA</string>
+    <string name="txt2lesscgpa">1.99 - CGPA</string>
+    <string name="cs_dept">CS Dept</string>
+    <string name="se_dept">SE Dept</string>
+</resources>

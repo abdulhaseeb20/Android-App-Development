@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">20F-1066_SMD_Final</string>
+    <string name="secondname">secondname</string>
+    <string name="firstname">firstname</string>
+    <string name="phone_number">phone_number</string>
+    <string name="email">email</string>
+    <string name="home_address">home_address</string>
+    <string name="save">save</string>
+    <string name="btnuser">Button</string>
+    <string name="btnadmin">Button</string>
+</resources>

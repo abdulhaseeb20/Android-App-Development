@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imageButton" type="id">fblogo</item>
+    <item name="fblogo" type="id" />
+    <item name="button4" type="id">fblogo</item>
+    <item name="fblogo2" type="id">15</item>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Week02_Task02</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="zinenic">ZINENIC</string>
+    <string name="password2">*******</string>
+</resources>

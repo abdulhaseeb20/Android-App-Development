@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:elevation="10dp"
+        app:cardCornerRadius="6dp"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgcardview"
+                android:layout_width="255dp"
+                android:layout_height="203dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="71dp"
+                android:clickable="true"
+                tools:ignore="ContentDescription,ImageContrastCheck,KeyboardInaccessibleWidget,SpeakableTextPresentCheck"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt1_cardview"
+                android:layout_width="303dp"
+                android:layout_height="39dp"
+                android:layout_below="@+id/imgcardview"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="64dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/txtcard1"
+                android:textColor="@color/design_default_color_primary_dark"
+
+                android:textSize="17dp"
+                tools:ignore="SpUsage,TextSizeCheck,UnknownId" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt2cardview"
+            android:layout_width="264dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="262dp"
+            android:layout_marginEnd="65dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/txt2card"
+            tools:ignore="UnknownId" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

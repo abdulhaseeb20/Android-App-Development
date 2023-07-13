@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/link1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_image_url"
+            android:minHeight="48dp"
+            android:layout_weight="1"
+            android:autofillHints=""
+
+            tools:ignore="TextFields" />
+
+        <Button
+            android:id="@+id/dld1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/download_image"
+            tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize,VisualLintBounds" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <fragment
+            android:id="@+id/fragment_1"
+            class="com.example.assignment04.Fragment1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+
+            tools:ignore="FragmentTagUsage,MissingConstraints,Suspicious0dp" />
+
+        <fragment
+            android:id="@+id/fragment_2"
+            class="com.example.assignment04.Fragment2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+            tools:ignore="FragmentTagUsage,MissingConstraints,Suspicious0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/fragment_3"
+            class="com.example.assignment04.Fragment3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="40dp"
+android:layout_weight="1"
+            tools:ignore="FragmentTagUsage,MissingConstraints" />
+
+        <fragment
+            android:id="@+id/fragment_4"
+            class="com.example.assignment04.Fragment4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="40dp"
+android:layout_weight="1"
+            tools:ignore="FragmentTagUsage,MissingConstraints" />
+    </LinearLayout>
+</LinearLayout>
